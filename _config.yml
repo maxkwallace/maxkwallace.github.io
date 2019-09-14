@@ -1,3 +1,6 @@
+collections:
+  - projects
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -30,7 +33,7 @@
 # github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 # plugins:
 #   - jekyll-feed
 
