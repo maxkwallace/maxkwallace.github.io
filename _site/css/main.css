@@ -1,0 +1,250 @@
+body, html {
+    height:auto;
+    min-height:100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+.row {
+    margin:0;
+}
+
+#content {
+    margin:0;
+    padding:0;
+}
+
+/*--- navigation bars ---*/
+
+nav {
+    background-image: linear-gradient(white, transparent);
+    cursor: crosshair;
+    height: 6rem;
+    padding:0 !important;
+    margin:0;
+    
+}
+.navbar{
+    vertical-align:bottom;
+    align-items:flex-end;
+}
+.navbar-header-left{
+    text-align:right;
+}
+.navbar-header-right{
+    text-align: left;
+}
+
+.navbar-hr {
+    width: 100%;
+    height: 0.9em;
+    background-color:black;
+    margin-bottom: 0.4em;
+}
+.navbar-link {
+    color: #000000;
+    cursor: crosshair;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    float: none;
+    margin:0;
+    padding:0;
+    bottom:0 !important;
+    line-height: 100%;
+}
+.navbar-link:hover {
+    color: rgba(0, 0, 0, 0.20);
+    text-decoration: none;
+}
+
+.anchor{
+  display: block;
+  height: 6rem;
+  margin-top: -6rem;
+  visibility: hidden;
+}
+
+#sidenav{
+    top: 12em;
+    cursor: crosshair;
+    padding:0 !important;
+    text-align: right;
+}
+
+#sidenav .nav-item-lg, 
+#sidenav .nav-item-md,
+#sidenav .nav-item-sm{
+    line-height: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+#sidenav .nav-item-lg{
+    font-size: x-small;
+    color: black;
+}
+#sidenav .nav-item-md{
+    font-size: x-small;
+    color: rgba(0, 0, 0, 0.20);
+}
+#sidenav .nav-item-sm{
+    font-size: x-small;
+    color: rgba(0, 0, 0, 0.20);
+}
+#sidenav .nav-link{
+    cursor: crosshair;
+    padding:0;
+    margin:0;
+    color: rgba(0, 0, 0, 0.20);
+}
+
+#sidenav .nav-link.active,
+#sidenav .nav-link:focus,
+#sidenav .nav-link:hover{
+    color: white;
+    background-color:black;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor:crosshair;
+    font-size:15px;
+    font-weight:400;
+    letter-spacing:0.1rem;
+}
+
+#sideinfo{
+    top:12em;   
+    letter-spacing: 0.1rem;
+}
+#sideinfo .nav-item-md {
+    font-size: small;
+    font-weight:800;   
+}
+#sideinfo .nav-item-sm{
+    font-size: x-small;
+}
+
+
+/*--- body styling ---*/
+
+#content_body{
+    max-width: 100%;
+    padding-top:0.7em;
+    font-size: small;
+    text-align: justify;
+}
+
+
+#main_title{
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    vertical-align: bottom;
+    margin-bottom: 1rem;
+}
+
+#section_title{
+    font-size: xx-large;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    vertical-align: bottom;
+    margin-bottom: -1rem;
+    font-style:italic;
+}
+
+#project_title{
+    font-size: x-large;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+#body_title_major{
+    font-size: larger;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0.1rem;
+}
+#body_title_minor{
+    font-size: small;
+    font-weight: bold;
+}
+
+.table{
+    font-size: small;
+    letter-spacing: 0.1rem;
+}
+.table th{
+    width: 4rem;
+}
+
+.carousel{
+    cursor: crosshair;
+    padding-top:1em;
+    padding-bottom:2em;
+}
+
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 1s ease;
+    transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    cursor: crosshair;
+    opacity: 0;
+    filter: alpha(opacity=0); /* IE support */
+}
+
+.carousel-caption{
+    opacity:0;
+    color: white;
+    font-size: small;
+    transition:200ms ease-in-out;
+    transform: translateY(-50%);
+    height: 0.9rem;
+    left:0;
+    right: 0;
+    background-color: black;
+    top: 50%;
+}
+.carousel-item:hover .carousel-caption{
+    opacity:1;
+}
+.carousel-item:hover img{
+    opacity:0.2;
+}
+
+#divider_project{
+}
+#divider_section{
+}
+#divider_main{
+}
+#quote_text{
+    font-family: 'Space Mono', monospace, 'Courier New',Arial;
+    font-size: small;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.tab{
+    padding-left: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
